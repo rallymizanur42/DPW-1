@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif; /* Ganti dengan font yang diinginkan */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    color: white;
+    background-color: #4F6F52;
+    height: 100vh; /* Gunakan viewport height untuk ketinggian 100% */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    text-align: right;
+}
+
+nav ul {
+    list-style: none; /* Menghapus bullet list */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; /* Menggunakan inline-block agar menu horizontal */
+    margin-left: 20px; /* Jarak antar menu */
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 20px; /* Ubah padding menu */
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s; /* Efek transisi */
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: #37988e; /* Warna teks saat hover */
+    border-radius: 5px; /* Memberi sedikit sudut pada hover */
+}
